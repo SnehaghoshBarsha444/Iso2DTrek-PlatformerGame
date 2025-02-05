@@ -1,49 +1,66 @@
-# Simple Retro Game Platformer
+#Iso2DTrek - Platformer Game
 
-This is a simple platformer game built using Python and Pygame. In this game, you control a main character that can move left and right and jump across platforms. Your goal is to avoid enemies and reach the end platform to win the game.
+Iso2DTrek is a simple yet engaging 2D platformer game built using Python and Pygame. In this game, you control a main character that can move left and right, jump across platforms, and avoid enemies. Your goal is to reach the final platform to win the game!
 
-## Features
+Features
 
-- **Platformer gameplay:** Run, jump, and avoid enemies.
-- **Simple enemy movement:** Enemies patrol on platforms and the player resets on collision.
-- **End-level win condition:** Reach the last platform to win.
+Classic Platformer Gameplay: Run, jump, and evade enemies while navigating through platforms.
 
-## Requirements
+Enemy AI: Enemies patrol the platforms, making the game more challenging.
 
-- Python 3.6+
-- Pygame (installed via `requirements.txt`)
+Win Condition: Successfully reaching the last platform triggers a win message.
 
-## Installation
 
-1. Clone the repository.
-2. Create a virtual environment (optional but recommended):
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-3. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+Requirements
 
-## Running the Game
+Python 3.6+
 
-Execute the following command from the project directory:
+Pygame (installed via requirements.txt)
 
-```bash
-python main.py
+
+Installation
+
+1. Clone the repository:
 ```
 
-## Controls
+git clone https://github.com/SnehaghoshBarsha444/Retro-Game.git
+cd Retro-Game
+```
 
-- **Left Arrow:** Move left.
-- **Right Arrow:** Move right.
-- **Space:** Jump (when on a platform).
+2. (Optional) Create a virtual environment:
+```
+python -m venv venv  
+source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-## Notes
+```
+3. Install dependencies:
+```
+pip install -r requirements.txt
 
-- The game window is 800x600 pixels.
-- If the player collides with an enemy, the player respawns at the starting position.
-- Reaching the end platform displays a win message!
+```
 
-Enjoy the game!
+Running the Game
+
+Run the following command in the project directory:
+```
+python main.py
+```
+Controls
+
+Left Arrow: Move left
+
+Right Arrow: Move right
+
+Space: Jump (when on a platform)
+
+---
+
+Game Notes
+
+The game window is set to 800x600 pixels.
+
+---
+
+
+
+Enjoy playing Iso2DTrek - Platformer Game!
